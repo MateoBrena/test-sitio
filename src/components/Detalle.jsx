@@ -61,9 +61,10 @@ export default function Detalle() {
             <section className="contenedor-detalle">
                 <div className="contenedor-portada">
                     <h1>{elProyecto[0].nombre}</h1>
-                    <h3>{elProyecto[0].medidas}</h3>
-                    <img src={`/images/${elProyecto[0].portada}`} alt={`Foto portada proyecto ${elProyecto[0].id}`} />
+                    <h3>{elProyecto[0].cubierta}</h3>
+                    <h3>{elProyecto[0].semicubierta}</h3>
                     <p>{elProyecto[0].descripcion}</p>
+                    <img src={`/images/${elProyecto[0].portada}`} alt={`Foto portada proyecto ${elProyecto[0].id}`} />
                 </div>
                 <div className="wrapper">
                     {elProyecto[0].planos.map((plano, index) => (

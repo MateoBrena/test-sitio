@@ -10,7 +10,7 @@ export default function MobileMenu() {
                     <li><Link to="/" className="dropdown-item">Inicio</Link></li>
                     <li><Link to="/proyectos" className="dropdown-item">Proyectos</Link></li>
                     <li><Link to="/servicios" className="dropdown-item">Servicios</Link></li>
-                    <li><Link to="/about" className="dropdown-item">About</Link></li>
+                    <li><Link to="/about" className="dropdown-item">Sobre Nosotros</Link></li>
                     <li><Link to="/contacto" className="dropdown-item">Contacto</Link></li>
                 </ul>
             </div>

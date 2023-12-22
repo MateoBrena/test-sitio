@@ -18,6 +18,10 @@
     width: 100%;
 }
 
+.arquitecto {
+    margin-bottom: 1rem;
+}
+
 
 @media(min-width:768px) {
 
@@ -29,9 +33,12 @@
         margin-top: 0rem;
     }
 
+    .imagen-about {
+        margin-left: 2rem;
+    }
+
     .imagen-about img{
         width: 40vw;
     }
-
 
 }

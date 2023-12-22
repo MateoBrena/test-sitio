@@ -2,63 +2,242 @@
     "proyectos": [
         {
             "id": 1,
-            "nombre": "Casa Barrio 1",
-            "portada": "portada-casa.jpg",
-            "medidas": "300x300 metros cuadrados",
-            "descripcion": "Acá va una descripcion de la casa cacaccacacacccacaccacacacaaccaca. Re buena casa eh compratela que ta muy buena",
+            "nombre": "El Naudir",
+            "portada": "portada-naudir.jpg",
+            "cubierta": "Superficie cubierta: 215m2",
+            "semicubierta":"Superficie semicubierta: 48m2",
+            "descripcion": "Vivienda unifamiliar",
             "planos": [
                 {
-                    "link": "/images/foto1.jpg",
+                    "link": "/images/naudir-1.jpg",
                     "texto": "Corte superior"
                 },
                 {
-                    "link": "/images/foto2.jpg",
+                    "link": "/images/naudir-2.jpg",
                     "texto": "Corte mediano"
                 },
                 {
-                    "link": "/images/foto3.jpg",
+                    "link": "/images/naudir-3.jpg",
                     "texto": "Corte inferior"
                 }
             ]
         },
         {
             "id": 2,
-            "nombre": "Casa Barrio 2",
-            "portada": "portada-casa2.jpg",
-            "medidas": "400x400 metros cuadrados",
-            "descripcion": "Acá va una descripcion de la casa cacaccacacacccacaccacacacaaccaca. Esta no está tan buena",
+            "nombre": "La Josefina 01",
+            "portada": "portada-josefina-1.jpg",
+            "cubierta": "Superficie cubierta: 100m2",
+            "semicubierta": "Superficie semicubierta: 18m2",
+            "descripcion": "Vivienda unifamiliar en duplex",
             "planos": [
                 {
-                    "link": "/images/foto1.jpg",
+                    "link": "/images/josefina-2.jpg",
                     "texto": "Corte superior"
                 },
                 {
-                    "link": "/images/foto2.jpg",
+                    "link": "/images/josefina-3.jpg",
                     "texto": "Corte mediano"
                 },
                 {
-                    "link": "/images/foto3.jpg",
+                    "link": "/images/josefina-4.jpg",
                     "texto": "Corte inferior"
                 }
             ]
         },
         {
             "id": 3,
-            "nombre": "Casa Barrio 3",
-            "portada": "portada-casa3.jpg",
-            "medidas": "500x500 metros cuadrados",
-            "descripcion": "Acá va una descripcion de la casa cacaccacacacccacaccacacacaaccaca. Maomeno eta casa, ahí anda",
+            "nombre": "Manuel Belgrano",
+            "portada": "portada-belgrano.jpg",
+            "cubierta": "Superficie cubierta: 150m2",
+            "semicubierta":"Superficie semicubierta: 30m2",
+            "descripcion": "Vivienda unifamiliar",
             "planos": [
                 {
-                    "link": "/images/foto1.jpg",
+                    "link": "/images/belgrano-1.jpg",
                     "texto": "Corte superior"
                 },
                 {
-                    "link": "/images/foto2.jpg",
+                    "link": "/images/belgrano-2.jpg",
                     "texto": "Corte mediano"
                 },
                 {
-                    "link": "/images/foto3.jpg",
+                    "link": "/images/belgrano-3.jpg",
+                    "texto": "Corte inferior"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "nombre": "Saladillo",
+            "portada": "portada-saladillo.jpg",
+            "cubierta": "Superficie cubierta: 137m2",
+            "semicubierta":"Superficie semicubierta: 125m2",
+            "descripcion": "Vivienda unifamiliar",
+            "planos": [
+                {
+                    "link": "/images/saladillo-1.jpg",
+                    "texto": "Corte superior"
+                },
+                {
+                    "link": "/images/saladillo-2.jpg",
+                    "texto": "Corte mediano"
+                },
+                {
+                    "link": "/images/saladillo-3.jpg",
+                    "texto": "Corte inferior"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "nombre": "San Ramón",
+            "portada": "portada-san-ramon.jpg",
+            "cubierta": "Superficie Cubierta: 135m2",
+            "semicubierta":"Superficie semicubierta: 30m2",
+            "descripcion": "Vivienda unifamiliar",
+            "planos": [
+                {
+                    "link": "/images/san-ramon-1.jpg",
+                    "texto": "Corte superior"
+                },
+                {
+                    "link": "/images/san-ramon-2.jpg",
+                    "texto": "Corte mediano"
+                },
+                {
+                    "link": "/images/san-ramon-3.jpg",
+                    "texto": "Corte inferior"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "nombre": "Santa Elena",
+            "portada": "portada-santa-elena.jpg",
+            "cubierta": "Superficie Cubierta: 100m2",
+            "semicubierta":"Superficie semicubierta: 30m2",
+            "descripcion": "Vivienda unifamiliar",
+            "planos": [
+                {
+                    "link": "/images/santa-elena-1.jpg",
+                    "texto": "Corte superior"
+                },
+                {
+                    "link": "/images/santa-elena-2.jpg",
+                    "texto": "Corte mediano"
+                },
+                {
+                    "link": "/images/santa-elena-3.jpg",
+                    "texto": "Corte inferior"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "nombre": "Santa Lucía",
+            "portada": "portada-santa-lucia.png",
+            "cubierta": "Superficie Cubierta: 175m2",
+            "semicubierta":"Superficie semicubierta: 30m2",
+            "descripcion": "Vivienda unifamiliar",
+            "planos": [
+                {
+                    "link": "/images/santa-lucia-1.png",
+                    "texto": "Corte superior"
+                },
+                {
+                    "link": "/images/santa-lucia-2.jpg",
+                    "texto": "Corte mediano"
+                },
+                {
+                    "link": "/images/santa-lucia-3.jpg",
+                    "texto": "Corte inferior"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "nombre": "San Sebastián 01",
+            "portada": "portada-san-sebastian-1.jpg",
+            "cubierta": "Superficie Cubierta: 105m2",
+            "semicubierta":"Superficie semicubierta: 20m2",
+            "descripcion": "Vivienda unifamiliar",
+            "planos": [
+                {
+                    "link": "/images/san-sebastian-1.jpg",
+                    "texto": "Corte superior"
+                },
+                {
+                    "link": "/images/san-sebastian-2.jpg",
+                    "texto": "Corte mediano"
+                },
+                {
+                    "link": "/images/san-sebastian-3.jpg",
+                    "texto": "Corte inferior"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "nombre": "Oficinas Nordelta",
+            "portada": "portada-oficinas-nordelta.jpg",
+            "cubierta": "Superficie Cubierta: 75m2",
+            "semicubierta":"Superficie semicubierta: N/A",
+            "descripcion": "Oficinas",
+            "planos": [
+                {
+                    "link": "/images/oficinas-nordelta-1.jpg",
+                    "texto": "Corte superior"
+                },
+                {
+                    "link": "/images/oficinas-nordelta-2.jpg",
+                    "texto": "Corte mediano"
+                },
+                {
+                    "link": "/images/oficinas-nordelta-3.jpg",
+                    "texto": "Corte inferior"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "nombre": "San Sebastián 02",
+            "portada": "portada-san-sebastian-2.jpg",
+            "cubierta": "Superficie Cubierta: 115m2",
+            "semicubierta":"Superficie semicubierta: 20m2",
+            "descripcion": "Vivienda unifamiliar",
+            "planos": [
+                {
+                    "link": "/images/san-sebastian-2-1.jpg",
+                    "texto": "Corte superior"
+                },
+                {
+                    "link": "/images/san-sebastian-2-2.jpg",
+                    "texto": "Corte mediano"
+                },
+                {
+                    "link": "/images/san-sebastian-2-3.jpg",
+                    "texto": "Corte inferior"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "nombre": "Maschwitz Club 01",
+            "portada": "portada-maschwitz-club-1.jpg",
+            "cubierta": "Superficie Cubierta: 115m2",
+            "semicubierta":"Superficie semicubierta: 20m2",
+            "descripcion": "Reforma vivienda unifamiliar",
+            "planos": [
+                {
+                    "link": "/images/maschwitz-club-1.jpg",
+                    "texto": "Corte superior"
+                },
+                {
+                    "link": "/images/maschwitz-club-2.jpg",
+                    "texto": "Corte mediano"
+                },
+                {
+                    "link": "/images/maschwitz-club-3.jpg",
                     "texto": "Corte inferior"
                 }
             ]

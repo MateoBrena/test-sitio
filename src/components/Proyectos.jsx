@@ -21,7 +21,6 @@ export default function Proyectos() {
                <Card.Img variant="top" src={`/images/${proyecto.portada}`} alt={`Foto portada proyecto ${proyecto.id}`}/>
                <Card.Body>
                  <Card.Title>{proyecto.nombre}</Card.Title>
-                 <Card.Title>{proyecto.medidas}</Card.Title>
                  <Card.Text>
                     {proyecto.descripcion}
                  </Card.Text>
