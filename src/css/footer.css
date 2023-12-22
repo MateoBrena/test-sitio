@@ -1,0 +1,39 @@
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin-top: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p {
+    margin: 1rem;
+    color: white;
+}
+
+#instagram {
+    font-size: 2rem;
+    color: white;
+    margin: 1rem;
+}
+
+#whatsapp {
+    font-size: 2rem;
+    color: white;
+    margin: 1rem;
+}
+
+@media(min-width:768px) {
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }    
+
+}

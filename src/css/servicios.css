@@ -1,0 +1,46 @@
+.contenedor-servicios {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.primer-servicio{
+    margin-top: 2rem;
+}
+
+.primer-servicio div, .segundo-servicio div {
+    padding: 0.5rem;
+}
+
+.descarga {
+    margin: 1rem;
+}
+
+.descarga a {
+    color: white;
+    text-decoration: none;
+}
+
+.imagen-servicios {
+    width: 100%;
+}
+
+@media(min-width:768px) {
+
+
+    .primer-servicio, .segundo-servicio {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .primer-servicio div, .segundo-servicio div{
+        padding: 1rem;
+        margin-right: 2rem;
+    }
+
+    .imagen-servicios {
+        margin-left: 2rem;
+        max-width: 400px;
+    }
+
+}

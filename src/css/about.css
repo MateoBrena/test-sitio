@@ -1,0 +1,37 @@
+.contenedor-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-about {
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.imagen-about {
+    margin-top: 2rem;
+}
+
+.imagen-about img{
+    width: 100%;
+}
+
+
+@media(min-width:768px) {
+
+    .contenedor-about {
+        flex-direction: row;
+    }
+
+    .texto-about {
+        margin-top: 0rem;
+    }
+
+    .imagen-about img{
+        width: 40vw;
+    }
+
+
+}

@@ -1,0 +1,67 @@
+{
+    "proyectos": [
+        {
+            "id": 1,
+            "nombre": "Casa Barrio 1",
+            "portada": "portada-casa.jpg",
+            "medidas": "300x300 metros cuadrados",
+            "descripcion": "Acá va una descripcion de la casa cacaccacacacccacaccacacacaaccaca. Re buena casa eh compratela que ta muy buena",
+            "planos": [
+                {
+                    "link": "/images/foto1.jpg",
+                    "texto": "Corte superior"
+                },
+                {
+                    "link": "/images/foto2.jpg",
+                    "texto": "Corte mediano"
+                },
+                {
+                    "link": "/images/foto3.jpg",
+                    "texto": "Corte inferior"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "nombre": "Casa Barrio 2",
+            "portada": "portada-casa2.jpg",
+            "medidas": "400x400 metros cuadrados",
+            "descripcion": "Acá va una descripcion de la casa cacaccacacacccacaccacacacaaccaca. Esta no está tan buena",
+            "planos": [
+                {
+                    "link": "/images/foto1.jpg",
+                    "texto": "Corte superior"
+                },
+                {
+                    "link": "/images/foto2.jpg",
+                    "texto": "Corte mediano"
+                },
+                {
+                    "link": "/images/foto3.jpg",
+                    "texto": "Corte inferior"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nombre": "Casa Barrio 3",
+            "portada": "portada-casa3.jpg",
+            "medidas": "500x500 metros cuadrados",
+            "descripcion": "Acá va una descripcion de la casa cacaccacacacccacaccacacacaaccaca. Maomeno eta casa, ahí anda",
+            "planos": [
+                {
+                    "link": "/images/foto1.jpg",
+                    "texto": "Corte superior"
+                },
+                {
+                    "link": "/images/foto2.jpg",
+                    "texto": "Corte mediano"
+                },
+                {
+                    "link": "/images/foto3.jpg",
+                    "texto": "Corte inferior"
+                }
+            ]
+        }
+    ]
+}
