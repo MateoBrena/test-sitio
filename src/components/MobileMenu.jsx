@@ -5,7 +5,7 @@ export default function MobileMenu() {
     return (
         <div id='mobile-menu'>
             <div className="dropdown" id="menu-dropdown">
-                <button type="button" className="btn btn-dark"  data-bs-toggle="dropdown"><i className="fa-solid fa-bars"></i></button>
+                <button type="button" className="btn btn-dark"  data-bs-toggle="dropdown" aria-label="menu"><i className="fa-solid fa-bars"></i></button>
                 <ul className="dropdown-menu">
                     <li><Link to="/" className="dropdown-item">Inicio</Link></li>
                     <li><Link to="/proyectos" className="dropdown-item">Proyectos</Link></li>
@@ -17,16 +17,3 @@ export default function MobileMenu() {
         </div>
     )
 }
-
-/* <Dropdown>
-<Dropdown.Toggle variant='dark' id="dropdown-basic">
-    <i className="fa-solid fa-bars"></i>
-</Dropdown.Toggle>
-<Dropdown.Menu>
-    <Dropdown.Item> <Link to='/'> Inicio </Link> </Dropdown.Item>
-    <Dropdown.Item href="/proyectos"> Proyectos </Dropdown.Item>
-    <Dropdown.Item href="/servicios"> Servicios </Dropdown.Item>
-    <Dropdown.Item href="/about"> About </Dropdown.Item>
-    <Dropdown.Item href="/contacto"> Contacto </Dropdown.Item>
-</Dropdown.Menu>
-</Dropdown> */

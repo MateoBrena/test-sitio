@@ -2,6 +2,14 @@
     width: 100%;
 }
 
+.descripcion-foto {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.descripcion-proyecto {
+    margin: 0px 20px;
+}
 
 @media(min-width:768px) {
 

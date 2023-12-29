@@ -7,7 +7,7 @@ export default function Contacto() {
     return (
         <>
             <Header></Header>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGhKCCJJUp6c0g1YnBEAxT-T0cUGDsYAUr4tXXkrPLRI0o22MeI6tI_A9gHi4MoJIaLw&usqp=CAU" alt="foto-contacto" className="d-block w-100" />
+            <img src="/images/banner-contacto.jpg" alt="foto-contacto" className="d-block w-100" />
             <section className="contacto">
                 <div className="contenedor-contacto">
                     <div className="contenedor-mail">
@@ -19,6 +19,7 @@ export default function Contacto() {
                         </div>
                         <div>
                             <p> gcanevaro@onespace.com.ar </p>
+                            <p> info@onespace.com.ar </p>
                         </div>
                     </div>
                     <div className="contenedor-telefono">

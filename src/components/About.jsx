@@ -7,10 +7,10 @@ export default function About() {
     return (
         <>
             <Header></Header>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGhKCCJJUp6c0g1YnBEAxT-T0cUGDsYAUr4tXXkrPLRI0o22MeI6tI_A9gHi4MoJIaLw&usqp=CAU" alt="foto-about" className="d-block w-100" />
+            <img src="/images/banner-nosotros.jpg" alt="foto-about" className="d-block w-100" />
             <section className="contenedor-about">
                 <div className="imagen-about">
-                    <img src="/images/foto-about.jpg" alt="foto-sobre-nosotros" />
+                    <img src="/images/nosotros.jpg" alt="Foto sobre nosotros" />
                 </div>
                 <div className="texto-about">
                     <h3 className="arquitecto">Arquitecto: Gustavo Canevaro</h3>

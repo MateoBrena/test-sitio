@@ -8,7 +8,7 @@ export default function Servicios() {
     return (
         <>
             <Header></Header>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGhKCCJJUp6c0g1YnBEAxT-T0cUGDsYAUr4tXXkrPLRI0o22MeI6tI_A9gHi4MoJIaLw&usqp=CAU" alt="foto-servicios" className="d-block w-100" />
+            <img src="/images/banner-servicios.jpg" alt="foto-servicios" className="d-block w-100" />
             <div className="contenedor-servicios">
                 <div className="primer-servicio">
                     <img src="https://media.istockphoto.com/id/929029342/es/foto/imagen-del-ingeniero-equipo-comprueba-planos-de-construcci%C3%B3n-en-el-nuevo-proyecto-con.jpg?s=612x612&w=0&k=20&c=lHzXypeAszefJkgj3_vKhXrBRyfsLUb2kpfb9gKjy7o=" alt="foto-servicio-uno" className="imagen-servicios" />

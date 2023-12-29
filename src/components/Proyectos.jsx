@@ -14,7 +14,7 @@ export default function Proyectos() {
     return (
         <>
         <Header></Header>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGhKCCJJUp6c0g1YnBEAxT-T0cUGDsYAUr4tXXkrPLRI0o22MeI6tI_A9gHi4MoJIaLw&usqp=CAU" alt="foto-proyecto" className="d-block w-100 foto-proyectos" />
+        <img src="/images/banner-proyectos.jpg" alt="foto-proyecto" className="d-block w-100 foto-proyectos" />
         <section className="contenedor-proyectos">
         {proyectos.proyectos.map((proyecto) => {
                return  <Card key={proyecto.id} className="tarjeta-proyecto">
