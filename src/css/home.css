@@ -1,0 +1,19 @@
+.textos-inicio {
+    margin-top: 1rem;
+}
+
+.textos-inicio div{
+    padding: 1rem;
+}
+
+.textos-inicio div h2{
+    margin-bottom: 0.5rem;
+}
+
+@media(min-width:768px) {
+
+    .textos-inicio {
+        display: none;
+    }
+
+}

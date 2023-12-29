@@ -5,6 +5,7 @@
 .descripcion-foto {
     margin-top: 1rem;
     margin-bottom: 1rem;
+     display: none; 
 }
 
 .descripcion-proyecto {
