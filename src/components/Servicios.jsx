@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import BotonWhatsapp from "./BotonWhatsapp";
 import archivo from "../db/servicios.pdf"
 import "../css/servicios.css"
 
@@ -31,6 +32,7 @@ export default function Servicios() {
                     </div>
                 </div>
             </div>
+            <BotonWhatsapp></BotonWhatsapp>
             <Footer></Footer>
         </>
     )

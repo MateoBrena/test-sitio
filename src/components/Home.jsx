@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import CarouselFade from "./Carousel";
+import BotonWhatsapp from "./BotonWhatsapp";
 import "../css/home.css";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
                 </p>
             </div>
         </section>
+        <BotonWhatsapp></BotonWhatsapp>
         <Footer></Footer>
         </>
     )

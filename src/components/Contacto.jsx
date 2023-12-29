@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import BotonWhatsapp from "./BotonWhatsapp";
 import "../css/contacto.css"
 
 export default function Contacto() {
@@ -50,6 +51,7 @@ export default function Contacto() {
                     width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="direccion"></iframe>
                 </div>
             </section>
+            <BotonWhatsapp></BotonWhatsapp>
             <Footer></Footer>
         </>
     )

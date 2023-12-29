@@ -4,8 +4,10 @@ import { useParams } from 'react-router-dom';
 import Header from "./Header";
 import Footer from "./Footer";
 import Modal from "./Modal.js";
+import BotonWhatsapp from "./BotonWhatsapp.jsx";
 import "../css/modal.css";
 import "../css/detalle.css";
+
 
 export default function Detalle() {
 
@@ -87,6 +89,7 @@ export default function Detalle() {
           )}
         </div>
       </section>
+      <BotonWhatsapp></BotonWhatsapp>
       <Footer></Footer>
     </>
   )

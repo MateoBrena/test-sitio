@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import BotonWhatsapp from "./BotonWhatsapp";
 import "../css/about.css"
 
 export default function About() {
@@ -38,6 +39,7 @@ export default function About() {
                     </p>
                 </div>
             </section>
+            <BotonWhatsapp></BotonWhatsapp>
             <Footer></Footer>
         </>
     )
