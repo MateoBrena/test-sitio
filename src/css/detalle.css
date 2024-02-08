@@ -2,6 +2,10 @@
     width: 100%;
 }
 
+.medidas {
+    font-size: 1.5rem
+}
+
 .descripcion-foto {
     margin-top: 1rem;
     margin-bottom: 1rem;

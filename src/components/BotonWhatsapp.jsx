@@ -1,4 +1,3 @@
-import React from "react";
 import "../css/botonwhatsapp.css"
 
 export default function BotonWhatsapp() {

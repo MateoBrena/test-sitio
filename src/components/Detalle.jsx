@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import proyectosRepo from "../helper/proyects-helper";
 import { useParams } from 'react-router-dom';
-import Header from "./Header";
-import Footer from "./Footer";
 import Modal from "./Modal.js";
-import BotonWhatsapp from "./BotonWhatsapp.jsx";
 import "../css/modal.css";
 import "../css/detalle.css";
 
@@ -59,13 +56,12 @@ export default function Detalle() {
 
   return (
     <>
-      <Header></Header>
       <section className="contenedor-detalle">
         <div className="contenedor-portada">
           <div className="descripcion-proyecto">
             <h1>{elProyecto[0].nombre}</h1>
-            <h3>{elProyecto[0].cubierta}</h3>
-            <h3>{elProyecto[0].semicubierta}</h3>
+            <h2 className="medidas" >{elProyecto[0].cubierta}</h2>
+            <h2 className="medidas" >{elProyecto[0].semicubierta}</h2>
             <p>{elProyecto[0].descripcion}</p>
           </div>
           <img src={`/images/${elProyecto[0].portada}`} alt={`Foto portada proyecto ${elProyecto[0].id}`} />
@@ -89,8 +85,6 @@ export default function Detalle() {
           )}
         </div>
       </section>
-      <BotonWhatsapp></BotonWhatsapp>
-      <Footer></Footer>
     </>
   )
 }

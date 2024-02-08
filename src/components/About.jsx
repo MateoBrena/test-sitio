@@ -1,13 +1,8 @@
-import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
-import BotonWhatsapp from "./BotonWhatsapp";
 import "../css/about.css"
 
 export default function About() {
     return (
         <>
-            <Header></Header>
             <img src="/images/banner-nosotros.jpg" alt="foto-about" className="d-block w-100" />
             <section className="contenedor-about">
                 <div className="imagen-about">
@@ -39,8 +34,6 @@ export default function About() {
                     </p>
                 </div>
             </section>
-            <BotonWhatsapp></BotonWhatsapp>
-            <Footer></Footer>
         </>
     )
 }

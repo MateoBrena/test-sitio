@@ -1,7 +1,4 @@
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
-import BotonWhatsapp from "./BotonWhatsapp";
 import proyectosRepo from "../helper/proyects-helper";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -14,7 +11,6 @@ export default function Proyectos() {
 
     return (
         <>
-        <Header></Header>
         <img src="/images/banner-proyectos.jpg" alt="foto-proyecto" className="d-block w-100 foto-proyectos" />
         <section className="contenedor-proyectos">
         {proyectos.proyectos.map((proyecto) => {
@@ -30,8 +26,6 @@ export default function Proyectos() {
              </Card>
                     })}
         </section>
-        <BotonWhatsapp></BotonWhatsapp>
-        <Footer></Footer>
         </>
     )
 }

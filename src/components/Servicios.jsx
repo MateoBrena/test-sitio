@@ -1,14 +1,9 @@
-import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
-import BotonWhatsapp from "./BotonWhatsapp";
 import archivo from "../db/servicios.pdf"
 import "../css/servicios.css"
 
 export default function Servicios() {
     return (
         <>
-            <Header></Header>
             <img src="/images/banner-servicios.jpg" alt="foto-servicios" className="d-block w-100" />
             <div className="contenedor-servicios">
                 <div className="primer-servicio">
@@ -32,8 +27,6 @@ export default function Servicios() {
                     </div>
                 </div>
             </div>
-            <BotonWhatsapp></BotonWhatsapp>
-            <Footer></Footer>
         </>
     )
 }

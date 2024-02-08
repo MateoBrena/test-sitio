@@ -1,13 +1,8 @@
-import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
-import BotonWhatsapp from "./BotonWhatsapp";
 import "../css/contacto.css"
 
 export default function Contacto() {
     return (
         <>
-            <Header></Header>
             <img src="/images/banner-contacto.jpg" alt="foto-contacto" className="d-block w-100" />
             <section className="contacto">
                 <div className="contenedor-contacto">
@@ -51,8 +46,6 @@ export default function Contacto() {
                     width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="direccion"></iframe>
                 </div>
             </section>
-            <BotonWhatsapp></BotonWhatsapp>
-            <Footer></Footer>
         </>
     )
 }
