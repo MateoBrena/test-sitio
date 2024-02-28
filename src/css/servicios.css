@@ -25,6 +25,14 @@
     width: 100%;
 }
 
+.textos-servicios {
+    padding: 1rem;
+}
+
+.titulo-servicio {
+    margin-top: 1rem;
+}
+
 @media(min-width:768px) {
 
 
